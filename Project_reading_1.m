@@ -1,0 +1,13 @@
+clear all; clc;
+L=0.0063;
+R=2.1975;
+Kt=1.78;
+J=0.0236;
+B=0.015;
+k=3;
+g=5;
+m=8;
+C=0.8;
+Ks=18000;
+P=1;
+sim('Project_block_diagram');
